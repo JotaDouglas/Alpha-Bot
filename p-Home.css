@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+.conteudo{
+    border-top: 0.4px solid white;
+    margin-bottom: 20px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.conteudo-principal-titulo{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.conteudo-principal-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.conteudo-principal-botao{
+    border: none;
+    background-color: rgb(209, 241, 206);
+    width: 150px;
+    height: 30px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2F2325;
+}
+.conteudo-principal-botao:hover{
+    background-color: yellowgreen;
+}
+.conteudo-principal-imagem{
+    height: 400px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin: 30px auto;
+}
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 25px auto;
+}
+.conteudo-secundario-escrito-titulo{
+    border-top: 0.4px solid white;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.conteudo-secundario-escrito-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
