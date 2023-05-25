@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+.conteudo-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 40px;
+    color: white;
+}
+.conteudo-cadastro-div-paragrafo{
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+.conteudo-formulario-campo{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.conteudo-formulario-campo-titulo{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.conteudo-formulario-campo-legenda{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-bottom: 3px;
+}
+#caixaMensagem{
+    height: 80px;
+}

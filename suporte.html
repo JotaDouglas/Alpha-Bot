@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heineken a cerveja numero um no mundo</title>
+    <link rel="stylesheet" href="back.css">
+    <link rel="stylesheet" href="p-suporte.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="imagens/nomeAlpha.png" alt="Alpha bot">
+        <nav class="cabecalho-menu">
+            <ul>
+                <li><a class="cabecalho-menu" href="home.html">Home</a></li>
+                <li><a class="cabecalho-menu" href="produtos.html">Produtos</a></li>
+                <li><a class="cabecalho-menu" href="#">Contato</a></li>
+                <li><a class="cabecalho-menu" href="sobreNos.html">Sobre Nós</a></li>
+                <li><a class="cabecalho-menu" href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo"> 
+        <section class="conteudo-cadastro">
+            <div class="conteudo-cadastro-div">
+                <p class="conteudo-cadastro-div-paragrafo">Atendimento ao cliente é a prestação de serviço aos clientes antes, durante e depois da compra. </p>
+                <p class="conteudo-cadastro-div-paragrafo">A percepção de sucesso de tais interações depende dos funcionários "que podem ajustar-se à personalidade do consumidor"</p>
+            </div>
+            <form class="conteudo-formulario" action="/submit-form" method="post">
+                <fieldset class="conteudo-formulario-campo">
+                    <legend class="conteudo-formulario-campo-titulo">FALE CONOSCO</legend>
+                    <label class="conteudo-formulario-campo-legenda" for="nome">Nome:</label>
+                    <input class="conteudo-formulario-campo-legenda-input" type="text" id="nome" name="nome" required>
+                    <label class="conteudo-formulario-campo-legenda" for="Email">Email:</label>
+                    <input class="conteudo-formulario-campo-legenda-input" type="text" id="Email" name="Email" required>
+                    <label class="conteudo-formulario-campo-legenda" for="sobre">Quero falar sobre:</label>
+                    <select name="sobre" id="sobre" required>
+                        <option value="financeiro">Suporte Financeiro</option>
+                        <option value="Otimização">Otimização de Site</option>
+                        <option value="Automacao">Automação de Ecommerce</option>
+                        <option value="Instagram">Suporte Instagram</option>
+                        <option value="Facebook">Suporte Facebook</option>
+                    </select>
+                    <br>
+                    <label class="conteudo-formulario-campo-legenda" for="duvida">Dúvida:</label>
+                    <textarea id="caixaMensagem"  name="duvida" cols="2" rows="4" maxlength="70" required> </textarea>
+                    <br>
+                    <button type="submit">Enviar</button>                    
+                </fieldset>
+            </form>           
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <img class="rodape-imagem" src="imagens/nomeAlpha.png" alt="nomeAlpha">
+    </footer>
+</body>
+
+</html>
