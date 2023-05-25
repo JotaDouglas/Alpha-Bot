@@ -7,6 +7,8 @@
     <title>Suporte</title>
     <link rel="stylesheet" href="back.css">
     <link rel="stylesheet" href="p-suporte.css">
+    <script src="jssuporte.js"></script>
+</head>
 </head>
 
 <body>
@@ -29,28 +31,30 @@
                 <p class="conteudo-cadastro-div-paragrafo">Atendimento ao cliente é a prestação de serviço aos clientes antes, durante e depois da compra. </p>
                 <p class="conteudo-cadastro-div-paragrafo">A percepção de sucesso de tais interações depende dos funcionários "que podem ajustar-se à personalidade do consumidor"</p>
             </div>
-            <form class="conteudo-formulario" action="/submit-form" method="post">
-                <fieldset class="conteudo-formulario-campo">
-                    <legend class="conteudo-formulario-campo-titulo">FALE CONOSCO</legend>
-                    <label class="conteudo-formulario-campo-legenda" for="nome">Nome:</label>
-                    <input class="conteudo-formulario-campo-legenda-input" type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
-                    <label class="conteudo-formulario-campo-legenda" for="Email">Email:</label>
-                    <input class="conteudo-formulario-campo-legenda-input" type="text" id="Email" name="Email" placeholder="nome@email.com" required>
-                    <label class="conteudo-formulario-campo-legenda" for="sobre">Quero falar sobre:</label>
-                    <select name="sobre" id="sobre" required>
-                        <option value="financeiro">Suporte Financeiro</option>
-                        <option value="Otimização">Otimização de Site</option>
-                        <option value="Automacao">Automação de Ecommerce</option>
-                        <option value="Instagram">Suporte Instagram</option>
-                        <option value="Facebook">Suporte Facebook</option>
-                    </select>
-                    <br>
-                    <label class="conteudo-formulario-campo-legenda" for="duvida">Dúvida:</label>
-                    <textarea id="caixaMensagem"  name="duvida" maxlength="70" placeholder="Digite a descrição" > </textarea>
-                    <br>
-                    <button class="conteudo-formulario-campo-botao" type="submit">Enviar</button>                    
-                </fieldset>
-            </form>           
+            <div class="borda">
+                <form class="conteudo-formulario" action="/submit-form" method="post">
+                    <fieldset class="conteudo-formulario-campo">
+                        <legend class="conteudo-formulario-campo-titulo">FALE CONOSCO</legend>
+                        <label class="conteudo-formulario-campo-legenda" for="nome">Nome:</label>
+                        <input class="conteudo-formulario-campo-legenda-input" type="text" id="nome" name="nome" placeholder="  Digite seu nome completo" required>
+                        <label class="conteudo-formulario-campo-legenda" for="Email">Email:</label>
+                        <input class="conteudo-formulario-campo-legenda-input" type="text" id="Email" name="Email" placeholder="  nome@email.com" required>
+                        <label class="conteudo-formulario-campo-legenda" for="sobre">Quero falar sobre:</label>
+                        <select name="sobre" id="sobre" required>
+                            <option value="financeiro">Suporte Financeiro</option>
+                            <option value="Otimização">Otimização de Site</option>
+                            <option value="Automacao">Automação de Ecommerce</option>
+                            <option value="Instagram">Suporte Instagram</option>
+                            <option value="Facebook">Suporte Facebook</option>
+                        </select>
+                        <br>
+                        <label class="conteudo-formulario-campo-legenda" for="duvida">Dúvida:</label>
+                        <textarea id="caixaMensagem"  name="duvida" maxlength="70" placeholder=" Digite a descrição" required ></textarea>
+                        <br>
+                        <button class="conteudo-formulario-campo-botao" type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </div>  
         </section>
 
     </main>

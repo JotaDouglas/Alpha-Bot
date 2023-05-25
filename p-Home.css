@@ -36,7 +36,7 @@
     color: #2F2325;
 }
 .conteudo-principal-botao:hover{
-    background-color: yellowgreen;
+    background-color: yellow;
 }
 .conteudo-principal-imagem{
     height: 400px;
@@ -66,3 +66,13 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+.rodape-imagem-animada {
+    animation: rodape-animation 1s ease-in-out infinite;
+  }
+  
+  @keyframes rodape-animation {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+  }
