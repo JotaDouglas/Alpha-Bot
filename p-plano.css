@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.div{
+    display: flex;
+    height: 410px;
+    width: 800px;
+    border: 20px black;
+    margin: 0 auto;
+}
+.Card{
+    box-shadow: -10px 8px black;
+    display: flex;
+    flex-direction: column;
+    border:1.5px solid rgb(17, 17, 17);
+    border-radius: 10px;
+    margin: 10px auto;
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(80deg,rgb(23, 23, 24) 20%, rgb(17, 130, 150) 80%);
+    background-attachment: fixed;
+    color: white;
+}
+.Card-Titulo-Exclusivo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+    color: yellow;
+}
+.Card-Titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+}
+.Card-PrecoAntes-Exclusivo{
+    text-align: center;
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.699);
+}
+.Card-PrecoAntes{
+    text-align: center;
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.699);
+}
+.Card-Preco{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Card-Preco-Exclusivo{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: yellow;
+}
+.Card-beneficios{
+    list-style: none;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.Card-beneficios-Exclusivo{
+    list-style: none;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+.Card-beneficios-basico{
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.623);
+}
+.Card-Botao{
+    border-radius: 20px;
+    height: 30px;
+    margin: 30px;
+    font-weight: bolder;
+}
+.Card-Botao:hover{
+    background-color: yellow;
+}

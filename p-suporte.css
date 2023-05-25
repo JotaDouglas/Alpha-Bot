@@ -29,8 +29,18 @@
 .conteudo-formulario-campo-legenda{
     font-family: 'Roboto', sans-serif;
     text-align: left;
+    margin-top: 3px;
     margin-bottom: 3px;
 }
 #caixaMensagem{
     height: 80px;
+}
+
+.conteudo-formulario-campo-botao{
+    width: auto;
+    height: 25px;
+    border-radius: 10px;
+}
+.conteudo-formulario-campo-botao:hover{
+    background-color:  #0CABA8;
 }

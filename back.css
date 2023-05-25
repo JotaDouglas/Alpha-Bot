@@ -19,7 +19,7 @@ body{
 }
 .cabecalho-logo{
     width: 250px;
-    margin: auto;
+    margin-left: auto;
 }
 nav ul{
     list-style-type: none;
